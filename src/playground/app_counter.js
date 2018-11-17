@@ -10,6 +10,7 @@ var template =
 var c=0;
 var fun = function(){
         c = c+150;
+        c = c-10+120;
         console.log("df"+c)
         x();
 }
